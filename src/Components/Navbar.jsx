@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
       </div>
-      <div className="flex justify-evenly">
+      <div className="flex justify-evenly ">
         <div>
           <a href=""></a>
           </div>
@@ -32,23 +32,15 @@ const Navbar = () => {
         <div>
           <a href=""> </a>
         </div>
+
         <div>
           <button className="bg-yellow-200 flex p-3 rounded-3xl  ">
-            <h4 className=" font-medium text-xl ">Juice up</h4>
-
+            <h4 className=" font-semibold text-xl ">Juice up</h4>
           </button>
         </div>
+
       </div>
-      {/* <div className=' grid gap-4 grid-cols-3' >
-        <div>
-       <h1 className='text-black text-2xl font-semibold '>FRUIT JUICE</h1>
-       <div className='w-5 h-5 bg-yellow-400 rounded-full '></div>
-        </div>
-   
-  <div>
-  <a href="" className=' cursor-pointer '></a>
-  </div>
-      </div> */}
+    
     </div>
   );
 };
