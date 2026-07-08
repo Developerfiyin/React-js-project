@@ -1,4 +1,5 @@
 import React from "react";
+import { HiMiniArrowLongRight } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div>
-        <a href="#flavours">Flavours </a>
+        <a href="#flavours" className="text-xl ">Flavours </a>
         </div>
 
       </div>
@@ -34,8 +35,10 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button className="bg-yellow-200 flex p-3 rounded-3xl  ">
-            <h4 className=" font-semibold text-xl ">Juice up</h4>
+          <button className="bg-yellow-200 flex p-3 rounded-3xl ">
+            <h4 className="font-semibold text-xl ">Juice up</h4>
+          <HiMiniArrowLongRight />
+
           </button>
         </div>
 
