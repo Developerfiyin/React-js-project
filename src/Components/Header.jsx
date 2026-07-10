@@ -6,11 +6,11 @@ const Header = () => {
        <Navbar/>
         Header
         <div className='bg-green-300 h-20 mx-auto '>
-                   
+                   <div>
                    <h2>
-                    SAVOUR
+                   SAVOUR
                    </h2>
-
+                   </div>
         </div>
         </div>
   )
