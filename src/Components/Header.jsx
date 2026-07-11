@@ -5,12 +5,12 @@ const Header = () => {
     <div className='bg-white w-full h-screen  '>
        <Navbar/>
         Header
-        <div className='bg-green-300 h-20 mx-auto '>
-                   <div>
+        <div className='bg-green-400 h-20 '>
+{/*             
                    <h2>
                    SAVOUR
-                   </h2>
-                   </div>
+                   </h2> */}
+                
         </div>
         </div>
   )
