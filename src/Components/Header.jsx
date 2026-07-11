@@ -5,11 +5,8 @@ const Header = () => {
     <div className='bg-white w-full h-screen  '>
        <Navbar/>
         Header
-        <div className='bg-green-400 h-20 '>
-{/*             
-                   <h2>
-                   SAVOUR
-                   </h2> */}
+        <div className='bg-green-400 h-20 w-full'>
+
                 
         </div>
         </div>
