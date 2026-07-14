@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import useState from "react"
 const Header = () => {
   return (
     <div className='bg-white w-full h-screen  '>
@@ -9,7 +10,7 @@ const Header = () => {
 
                       <div className='flex justify-between '>
                         <h2 className='text-4xl font-bold text-black'> Savour <span className='text-red-300 text-2xl'>the Juicy essence in </span>every juice </h2>
-
+<button className=' p-5 '> Login in</button>
                       </div>
         </div>
         </div>
