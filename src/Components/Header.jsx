@@ -23,7 +23,7 @@ const Header = () => {
                   <button className='p-2 items-center justify-center bg-red-600 rounded-2xl mt-4 mx-2 ' onClick={increaseCount}> You have clicked {count} </button>
                   alert("why are you");
                    </div>
-                   //fnovnev ekn dkk 
+                   {/* //fnovnev ekn dkk  */}
                    <div>
 
                    </div>
