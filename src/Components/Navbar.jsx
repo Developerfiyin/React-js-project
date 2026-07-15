@@ -8,7 +8,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="border-b-2 border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center">
+    <div className="border-b-2 border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center mx-auto">
 
       <div className=" flex justify-evenly items-center gap-4 ">
         <div className="flex items-center gap-3 p-4">
@@ -43,11 +43,11 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button className="bg-yellow-300 flex p-2 rounded-3xl cursor-pointer w-40 justify-evenly items-center gap-0.5 ">
+          <button className="bg-yellow-300 flex p-2 rounded-3xl cursor-pointer justify-evenly items-center gap-0.5 ">
             <h4 className="font-semibold text-xl text-center ">Juice up</h4>
           <IoArrowForwardOutline className="text-xl text-center font-bold"/>
           </button>
-        </div>
+        </div>``
 
        
       </div>
