@@ -4,7 +4,13 @@ const Header = () => {
 
   const [count, setCount] = useState(0);
 const [fruits, setFruits] = useState
-let fruits = 
+let fruits = [Apple,
+Banana,
+Orange,
+Grapes,
+Mango,
+Pineapple,
+Watermelon]
   const  increaseCount = () => {
     return(
     setCount(count + 1 )
