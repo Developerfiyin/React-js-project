@@ -3,7 +3,8 @@ import Navbar from './Navbar'
 const Header = () => {
 
   const [count, setCount] = useState(0);
-
+const [fruits, setFruits] = useState
+let fruits = 
   const  increaseCount = () => {
     return(
     setCount(count + 1 )

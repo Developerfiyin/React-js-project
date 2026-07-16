@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import { IoBagOutline } from "react-icons/io5";
 import { FiSearch } from "react-icons/fi";
@@ -6,9 +7,18 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 
 
 
-const Navbar = () => {
+const Navbar = () => { 
+
+  const [lightMode, setLightMode] = useState(false);
+
+ function lightMod() {
+    
+setLightMode(!lightMode)
+//  }darkMode ? "dark" : "light"
+ }
+
   return (
-    <div className="border-b-2 border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center mx-auto">
+    <div className={"border-b-2 cursor-pointer border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center mx-auto"} >
 
       <div className=" flex justify-evenly items-center gap-4 ">
         <div className="flex items-center gap-3 p-4">
@@ -47,7 +57,7 @@ const Navbar = () => {
             <h4 className="font-semibold text-xl text-center ">Juice up</h4>
           <IoArrowForwardOutline className="text-xl text-center font-bold"/>
           </button>
-        </div>``
+        </div>
 
        
       </div>
