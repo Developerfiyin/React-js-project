@@ -4,8 +4,9 @@ const Header = () => {
 
   const [count, setCount] = useState(0);
 const [search, setSearch] = useState([{
-  id: "Apple"},
-}  "Banana", "Orange", "Grapes", "Mango", "Pineapple", "Watermelon"]);
+  id:1,name: "Apple"},
+
+ { id: "Banana"}, {"Orange"}, {"Grapes"}, {"Mango"}, {"Pineapple"}, {"Watermelon"}]);
 
  function searchInput() {
    setCount(...search, [])
