@@ -3,7 +3,9 @@ import Navbar from './Navbar'
 const Header = () => {
 
   const [count, setCount] = useState(0);
-const [search, setSearch] = useState([ "Apple", "Banana", "Orange", "Grapes", "Mango", "Pineapple", "Watermelon"]);
+const [search, setSearch] = useState([{
+  id: "Apple"},
+}  "Banana", "Orange", "Grapes", "Mango", "Pineapple", "Watermelon"]);
 
  function searchInput() {
    setCount(...search, [])
