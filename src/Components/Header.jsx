@@ -14,7 +14,17 @@ const Header = () => {
 
        const [newFruit, setNewFruit] = useState("");
 
+{fruits.map((fruit)=>(
+    <div key={fruit}>
+        <span>{fruit}</span>
 
+        <button
+            onClick={()=>deleteFruit(fruit)}
+        >
+            Delete
+        </button>
+    </div>
+))}
 
  function searchInput() {
    setCount(...search, [])
@@ -37,8 +47,6 @@ const Header = () => {
                 <button className='p-2 items-center font-semibold justify-center bg-red-600 rounded-2xl mt-4 mx-2 hover:bg-red-500 ' onClick={increaseCount}> You have clicked this {count} </button>
                    </div>
                    <div className=' bg-blue-400 w-1/2 '  >
-
-                   <h1 className=' text-2xl font-semibold '>SANTA is Coming Home.</h1>
 
                    </div>
 
