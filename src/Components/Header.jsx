@@ -45,10 +45,10 @@ const Header = () => {
                   <div className=' gap-4 '>
 
          <div className='flex gap-2'> 
-     <h2 className='text-yellow-300 text-4xl'> Savour </h2>
-      <span className=' text-cyan-800 font-semibold text-2xl'> the Juicy the essence </span>
+       <h2 className='text-yellow-300 text-4xl'> Savour </h2>
+       <span className=' text-cyan-800 font-semibold text-2xl'> the Juicy the essence </span>
        <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
-   </div>
+     </div>
     <div className=' '>
 
     </div>
