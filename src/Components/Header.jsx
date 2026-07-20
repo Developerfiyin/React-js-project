@@ -4,7 +4,7 @@ const Header = () => {
 
   const [count, setCount] = useState(0);
   const [fruit, setFruit] = useState([{
-      id:1,name: "Apple"},
+      id:1, name: "Apple"},
       { id: 2, name: "Banana"},
       {id: 3, name:"Orange"},
      {id: 4, name:"Grapes"},
@@ -40,14 +40,18 @@ const Header = () => {
   return (
     <div className='bg-white w-full h-screen overflow-hidden'>
        <Navbar/>        
-        <div className='bg-green-400 h-20 w-full mx-auto '>
+        <div className='bg-green-400 h-20 flex items-center '>
 
-                  <div className='flex justify-center gap-4 '>
+                  <div className=' gap-4 '>
 
-   <div> 
-    <h2 className='text-green-400'> Savour </h2>
+         <div className='flex gap-2'> 
+     <h2 className='text-yellow-300 text-4xl'> Savour </h2>
+      <span className=' text-cyan-800 font-semibold text-2xl'> the Juicy the essence </span>
+       <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
    </div>
-   <div></div>
+    <div className=' '>
+
+    </div>
    <div></div>
 
 
