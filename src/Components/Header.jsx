@@ -40,7 +40,7 @@ const Header = () => {
   }
   
   return (
-    <div className='bg-white w-full h-screen overflow-hidden'>
+    <section className='bg-white w-full h-screen overflow-hidden'>
        <Navbar/>        
         <div className='bg-green-400 flex justify-evenly items-center '>
 
@@ -64,7 +64,7 @@ const Header = () => {
 
     </div>
     </div>
-     </div>
+     </section>
                 
         
   )
