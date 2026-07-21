@@ -1,4 +1,6 @@
 import React ,{useState} from 'react'
+import Image1 from "../assets/vegetable-drink.jpg"
+import image2 from "../assets/strawberry-drink.png"
 import Navbar from './Navbar'
 const Header = () => {
 
@@ -40,26 +42,30 @@ const Header = () => {
   return (
     <div className='bg-white w-full h-screen overflow-hidden'>
        <Navbar/>        
-        <div className='bg-green-400 h-20 flex items-center '>
+        <div className='bg-green-400 flex items-center '>
 
-                  <div className=' gap-4 '>
-
-         <div className='flex gap-2'> 
+        <div className='flex gap-2'> 
        <h2 className='text-yellow-300 text-4xl'> Savour </h2>
        <span className=' text-cyan-800 font-semibold text-2xl'> the Juicy the essence </span>
        <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
      </div>
-    <div className=' '>
+
+    <div className='' >
+      <img src={Image1} alt=" " className=''/>
 
     </div>
-   <div></div>
 
+   <div className=''> 
 
+     <div>
+   <img src={image2} alt="" />
+     </div>
+    </div>
 
-                   </div>
+   </div>
+
+     </div>
                 
-        </div>
-        </div>
         
   )
 }
