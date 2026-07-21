@@ -44,10 +44,13 @@ const Header = () => {
        <Navbar/>        
         <div className='bg-green-400 flex justify-evenly items-center '>
 
-        <div className='flex text-center '> 
+        <div className='flex w-1/2'> 
+        <div>
        <h2 className='text-yellow-300 text-4xl font-semibold'> Savour </h2>
        <span className=' text-cyan-800 font-semibold text-2xl' > the Juicy essence </span>
        <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
+        </div>
+
      </div>
 
     <div className=' bg-green-950 ' >
