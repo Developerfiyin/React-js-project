@@ -42,22 +42,21 @@ const Header = () => {
   return (
     <div className='bg-white w-full h-screen overflow-hidden'>
        <Navbar/>        
-        <div className='bg-green-400 flex items-center '>
+        <div className='bg-green-400 flex justify-evenly items-center '>
 
-        <div className='flex'> 
+        <div className='flex text-center '> 
        <h2 className='text-yellow-300 text-4xl font-semibold'> Savour </h2>
        <span className=' text-cyan-800 font-semibold text-2xl' > the Juicy essence </span>
        <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
      </div>
 
-    <div className='  ' >
+    <div className=' bg-green-950 ' >
       <img src={Image1} alt=" " className=''/>
     </div>
 
    <div className=' '> 
-
-     <div className='rounded-full h-20 w-20  '>
-   <img src={image2} alt="" />
+     <div className='rounded-full h-20 w-20 bg-amber-800 '>
+       <img src={image2} alt="" />
      </div>
 
     </div>
