@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import Image1 from "../assets/vegetable-drink.jpg"
+import Image1 from "../assets/strawberrysmothie.png"
 import image2 from "../assets/strawberry-drink.png"
 import Navbar from './Navbar'
 const Header = () => {
@@ -44,26 +44,24 @@ const Header = () => {
        <Navbar/>        
         <div className='bg-green-400 flex items-center '>
 
-        <div className='flex gap-2'> 
-       <h2 className='text-yellow-300 text-4xl'> Savour </h2>
-       <span className=' text-cyan-800 font-semibold text-2xl'> the Juicy the essence </span>
+        <div className='flex'> 
+       <h2 className='text-yellow-300 text-4xl font-semibold'> Savour </h2>
+       <span className=' text-cyan-800 font-semibold text-2xl' > the Juicy essence </span>
        <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
      </div>
 
-    <div className='' >
+    <div className='  ' >
       <img src={Image1} alt=" " className=''/>
-
     </div>
 
-   <div className=''> 
+   <div className=' '> 
 
-     <div>
+     <div className='rounded-full h-20 w-20  '>
    <img src={image2} alt="" />
      </div>
+
     </div>
-
-   </div>
-
+    </div>
      </div>
                 
         
