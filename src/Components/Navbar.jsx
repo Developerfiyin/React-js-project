@@ -18,7 +18,7 @@ setLightMode(!lightMode)
  }
 
   return (
-    <div className={"border-b-2 cursor-pointer border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center mx-auto"} >
+    <div className={"border-b-2 overflow-hidden cursor-pointer border-gray-300 p-0.5 rounded-2xl flex m-4 justify-between items-center mx-auto"} >
 
       <div className=" flex justify-evenly items-center gap-4 ">
         <div className="flex items-center gap-3 p-4">

@@ -40,16 +40,16 @@ const Header = () => {
   }
   
   return (
-    <section className='bg-white w-full h-screen overflow-hidden'>
+    <section className='bg-white w-full h-screen '>
        <Navbar/>        
-        <div className='bg-green-400 flex justify-evenly items-center '>
+        <div className='bg-green-400 m-2 rounded-lg justify-evenly grid-cols-3 grid items-center '>
 
-        <div className='flex w-1/2'> 
-        <div>
-       <h2 className='text-yellow-300 text-4xl font-semibold'> Savour </h2>
-       <span className=' text-cyan-800 font-semibold text-2xl' > the Juicy essence </span>
-       <h2 className='text-4xl font-semibold text-yellow-300'> of fruit in every sip.</h2>
-        </div>
+        <div className=''> 
+        
+       <h2 className='text-yellow-300 text-center text-6xl font-semibold'> Savour  <span className='text-5xl font-semibold text-center text-amber-700'> the Juicy</span> </h2>
+       <span className=' text-amber-700 pl-4 font-semibold text-5xl '> essence <h2 className='text-6xl text-center font-semibold text-yellow-300'> of fruit in every sip.</h2>
+       </span>
+
 
      </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
       <img src={Image1} alt=" " className=''/>
     </div>
 
-   <div className=' '> 
+   <div className='mx-auto '> 
      <div className='rounded-full h-20 w-20 bg-amber-800 '>
        <img src={image2} alt="" />
      </div>
