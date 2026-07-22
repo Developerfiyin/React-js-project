@@ -58,7 +58,7 @@ const Header = () => {
     </div>
 
    <div className='mx-auto '> 
-     <div className='rounded-full h-20 w-20 bg-amber-800 '>
+     <div className='rounded-full h-20 w-20 items-center flex bg-amber-800 '>
        <img src={image2} alt="" />
      </div>
 
