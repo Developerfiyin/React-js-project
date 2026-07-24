@@ -44,14 +44,20 @@ const Header = () => {
        <Navbar/>        
         <div className='bg-green-400 m-2 rounded-lg justify-evenly grid-cols-3 grid items-center '>
 
-        <div className=' text-center '> 
+<div>
+   <div className=' text-center '> 
         
-       <h2 className='text-yellow-300  text-6xl font-semibold'> Savour  <span className='text-5xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
+       <h2 className='text-yellow-300  text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
        {/* <span className=' text-amber-700 pl-4 font-semibold text-5xl '> essence  </span> */}
       
-      <h2 className='text-6xl font-semibold text-yellow-300'> of fruit in every sip.</h2> 
-
+      <h2 className='text-5xl font-semibold text-yellow-300'> of fruit in every sip.</h2> 
+     
      </div>
+       <h4 className='text-center '>
+      Taste nature's best in every drop with real fruit and vibrant flavour
+   </h4>
+</div>
+       
 
     <div className=' bg-green-950 ' >
       <img src={Image1} alt=" " className=''/>
