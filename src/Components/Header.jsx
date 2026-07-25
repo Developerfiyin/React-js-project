@@ -54,8 +54,16 @@ const Header = () => {
      
      </div>
        <h4 className='text-center '>
-      Taste nature's best in every drop with real fruit and vibrant flavour
+      Taste nature's best in every <strong> drop</strong>  with real <strong>fruit </strong>  and vibrant <strong> flavour
+        </strong> 
    </h4>
+
+
+   <div>
+    <button> 
+      sign up 
+       </button>
+   </div>
 </div>
        
 
