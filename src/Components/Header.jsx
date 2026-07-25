@@ -59,8 +59,8 @@ const Header = () => {
    </h4>
 
 
-   <div>
-    <button> 
+   <div className='items-center flex'>
+    <button className='cursor-pointer bg-yellow-300 p-3 rounded-3xl '> 
       sign up 
        </button>
    </div>
