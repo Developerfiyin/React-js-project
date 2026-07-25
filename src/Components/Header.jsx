@@ -53,17 +53,22 @@ const Header = () => {
       <h2 className='text-5xl font-semibold text-yellow-300'> of fruit in every sip.</h2> 
      
      </div>
+
+     <div>
        <h4 className='text-center '>
       Taste nature's best in every <strong> drop</strong>  with real <strong>fruit </strong>  and vibrant <strong> flavour
         </strong> 
    </h4>
+     </div>
+      
 
 
-   <div className='items-center flex'>
-    <button className='cursor-pointer bg-yellow-300 p-3 rounded-3xl '> 
+   <div className=' flex items-center'>
+    <button className='cursor-pointer  bg-yellow-300 p-3 rounded-3xl '> 
       sign up 
        </button>
    </div>
+
 </div>
        
 
