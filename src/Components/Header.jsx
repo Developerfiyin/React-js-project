@@ -54,7 +54,7 @@ const Header = () => {
      
      </div>
 
-     <div>
+     <div> {/** the second header div by the left */}
        <h4 className='text-center '>
       Taste nature's best in every <strong> drop</strong>  with real <strong>fruit </strong>  and vibrant <strong> flavour
         </strong> 
@@ -63,8 +63,8 @@ const Header = () => {
       
 
 
-   <div className=' flex items-center'>
-    <button className='cursor-pointer  bg-yellow-300 p-3 rounded-3xl '> 
+   <div className=' '>
+    <button className='cursor-pointer flex mx-auto bg-yellow-300 p-3 rounded-2xl '> 
       sign up 
        </button>
    </div>
