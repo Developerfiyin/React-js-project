@@ -46,7 +46,7 @@ const Header = () => {
        <Navbar/>        
         <div className='bg-green-400 m-2 rounded-lg justify-evenly grid-cols-3 grid items-center '>
 
-<div className='flex flex-col gap-5'>
+<div className='flex flex-col gap-5 '>
    <div className=' text-center '> 
         
        <h2 className='text-yellow-300  text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
@@ -77,8 +77,8 @@ const Header = () => {
 </div>
        
 
-    <div className=' bg-green-950 ' >
-      <img src={Image1} alt=" " className=''/>
+    <div className=' bg-green-100 h-screen' >
+      <img src={Image1} alt=" " className='object-fit object-'/>
     </div>
 
    <div className='justify-center items-center flex flex-col gap-4 
@@ -89,6 +89,10 @@ const Header = () => {
 
      <div className='text-2xl text-center text-yellow-300 '>
       <h2 className='text-6xl text-center '> 78%</h2>
+     </div>
+
+     <div>
+      <p className='text-center text-amber-300 font-medium'>Natural ingredients used in flavours</p>
      </div>
 
     </div>
