@@ -1,6 +1,8 @@
 import React ,{useState} from 'react'
 import Image1 from "../assets/strawberrysmothie.png"
 import image2 from "../assets/strawberry-drink.png"
+import { FaArrowRight } from "react-icons/fa6";
+
 import Navbar from './Navbar'
 const Header = () => {
 
@@ -44,7 +46,7 @@ const Header = () => {
        <Navbar/>        
         <div className='bg-green-400 m-2 rounded-lg justify-evenly grid-cols-3 grid items-center '>
 
-<div>
+<div className='flex flex-col gap-5'>
    <div className=' text-center '> 
         
        <h2 className='text-yellow-300  text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
@@ -63,10 +65,13 @@ const Header = () => {
       
 
 
-   <div className=' '>
-    <button className='cursor-pointer flex mx-auto bg-yellow-300 p-3 rounded-2xl '> 
-      sign up 
+   <div className='m-2 '>
+    <button className='cursor-pointer px-6 flex items-center  gap-4  mx-auto bg-yellow-300 p-3 rounded-3xl '> 
+      <strong> Sip Fresh</strong>
+       <FaArrowRight className='text-center ' />
+
        </button>
+
    </div>
 
 </div>
@@ -76,9 +81,14 @@ const Header = () => {
       <img src={Image1} alt=" " className=''/>
     </div>
 
-   <div className='mx-auto '> 
-     <div className='rounded-full h-20 w-20 items-center flex bg-amber-800 '>
-       <img src={image2} alt="" />
+   <div className='justify-center items-center flex flex-col gap-4 
+ '> 
+     <div className='rounded-full h-30 w-30 bg-amber-800 '>
+       <img src={image2} alt="" className='flex justify-center mx-auto' />
+     </div>
+
+     <div className='text-2xl text-center text-yellow-300 '>
+      <h2 className='text-6xl text-center '> 78%</h2>
      </div>
 
     </div>
