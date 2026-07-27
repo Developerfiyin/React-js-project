@@ -49,7 +49,7 @@ const Header = () => {
 <div className='flex flex-col gap-5 '>
    <div className=' text-center '> 
         
-       <h2 className='text-yellow-300  text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
+       <h2 className='text-yellow-300 text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
        {/* <span className=' text-amber-700 pl-4 font-semibold text-5xl '> essence  </span> */}
       
       <h2 className='text-5xl font-semibold text-yellow-300'> of fruit in every sip.</h2> 
@@ -66,10 +66,9 @@ const Header = () => {
 
 
    <div className='m-2 '>
-    <button className='cursor-pointer px-6 flex items-center  gap-4  mx-auto bg-yellow-300 p-3 rounded-3xl '> 
+    <button className='cursor-pointer hover:bg-yellow-400 px-6 flex items-center  gap-4  mx-auto bg-yellow-300 p-3 rounded-3xl '> 
       <strong> Sip Fresh</strong>
        <FaArrowRight className='text-center ' />
-
        </button>
 
    </div>
@@ -77,7 +76,7 @@ const Header = () => {
 </div>
        
 
-    <div className=' bg-green-100 h-screen' >
+    <div className=' bg-amber-800 h-screen' >
       <img src={Image1} alt=" " className='object-fit object-'/>
     </div>
 
@@ -88,7 +87,7 @@ const Header = () => {
      </div>
 
      <div className='text-2xl text-center text-yellow-300 '>
-      <h2 className='text-6xl text-center '> 78%</h2>
+      <h2 className='text-6xl text-center '> 78% </h2>
      </div>
 
      <div>
