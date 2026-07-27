@@ -42,16 +42,14 @@ const Header = () => {
   }
   
   return (
-    <section className='bg-white w-full h-screen '>
+    <section className='bg-white w-full '>
        <Navbar/>        
         <div className='bg-green-400 m-2 rounded-lg justify-evenly grid-cols-3 grid items-center '>
 
 <div className='flex flex-col gap-5 '>
    <div className=' text-center '> 
         
-       <h2 className='text-yellow-300 text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>
-       {/* <span className=' text-amber-700 pl-4 font-semibold text-5xl '> essence  </span> */}
-      
+       <h2 className='text-yellow-300 text-5xl font-semibold'> Savour  <span className='text-4xl font-semibold text-amber-700'> the Juicy essence</span> </h2>      
       <h2 className='text-5xl font-semibold text-yellow-300'> of fruit in every sip.</h2> 
      
      </div>
@@ -76,7 +74,7 @@ const Header = () => {
 </div>
        
 
-    <div className=' bg-amber-800 h-screen' >
+    <div className=' bg-amber-800' >
       <img src={Image1} alt=" " className='object-fit object-'/>
     </div>
 

@@ -1,9 +1,20 @@
 import React from 'react'
 
-const hero = () => {
+const Hero = () => {
   return (
-    <div>hero</div>
+    <div>
+
+
+        <div className='flex justify-between'>
+
+<div> 
+    <h1>  <strong> Discover </strong> our range</h1>
+</div>
+<div></div>
+
+        </div>
+    </div>
   )
 }
 
-export default hero
+export default Hero
