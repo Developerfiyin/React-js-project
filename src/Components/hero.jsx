@@ -11,9 +11,9 @@ const Hero = () => {
           </h1>
         </div>
         <div>
-          <button> Best seller</button>
-          <button> Single Order</button>
-          <button>Weekly Order </button>
+          <button className=" bg-white border-gray-500 p-2 "> Best seller</button>
+          <button className=" bg-white border-gray-500 p-2 "> Single Order</button>
+          <button className=" bg-white border-gray-500 p-2 ">Weekly Order </button>
         </div>
       </div>
     </div>
