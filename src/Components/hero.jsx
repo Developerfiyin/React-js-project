@@ -6,11 +6,15 @@ const Hero = () => {
       <div className="flex justify-between">
         <div>
           <h1>
-            {" "}
-            <strong> Discover </strong> our range
+          
+            <strong> Discover </strong> our range 
           </h1>
         </div>
-        <div></div>
+        <div>
+          <button> Best seller</button>
+          <button> Single Order</button>
+          <button>Weekly Order </button>
+        </div>
       </div>
     </div>
   );
