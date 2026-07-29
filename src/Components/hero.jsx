@@ -9,17 +9,16 @@ const Hero = () => {
             <strong> Discover </strong> our range
           </h1>
         </div>
-        <div className="bg-red-8 bg-black ">
+        <div className="bg-red-8 bg-black flex gap-3">
           <button className=" bg-white border-gray-600 p-2 text-black font-semibold">
-            {" "}
             Best seller
-          </button>font-semibold
+          </button>
+          font-semibold
           <button className=" bg-white border-gray-600 p-2 text-black font-semibold">
-            {" "}
             Single Order
           </button>
           <button className=" bg-white border-gray-600 p-2 text-black font-semibold">
-            Weekly Order{" "}
+            Weekly Order
           </button>
         </div>
       </div>
