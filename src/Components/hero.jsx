@@ -42,13 +42,13 @@ const Hero = () => {
         <div>
           <div>
             <div>
-              <img src={image2} alt="" cla />
+              <img src={image2} alt="" className=" items-center" />
             </div>
 
-            <h3></h3>
+            <h3> Passion Fruit Guava</h3>
             <div className="flex justify-between">
-              <button></button>
-              <button></button>
+              <button> 1 Box 12 (pack) </button>
+              <button> $24.99</button>
             </div>
           </div>
         </div>{" "}
