@@ -45,7 +45,7 @@ const Hero = () => {
               <img src={image2} alt="" className=" items-center" />
             </div>
 
-            <h3> Passion Fruit Guava</h3>
+            <h3 className="text-center "> Passion Fruit Guava</h3>
             <div className="flex justify-between bg-yellow-300">
               <button> 1 Box 12 (pack) </button>
               <button> $24.99</button>
