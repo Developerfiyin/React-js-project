@@ -33,7 +33,10 @@ const Hero = () => {
             alt="the first image, this one is with strawberry and milk."
           />
           <h3 className="text-2xl"> All-in-one-package</h3>
-          <button> </button>
+          <div className="justify-between flex bg-yellow-300">
+            <button> 1 Box 12 (pack) </button>
+            <h4> $24.99</h4>
+          </div>
         </div>
         <div></div> {/** flexed div 2 */}
         <div></div> {/** flexed div 3 */}
