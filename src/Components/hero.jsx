@@ -53,7 +53,17 @@ const Hero = () => {
           </div>
         </div>{" "}
         {/** flexed div 2 */}
-        <div></div> {/** flexed div 3 */}
+        <div>
+          
+          <div>
+            <img src="" alt="" />
+          </div>
+
+          <div>
+            <button>1 bOX 12 (Pack) </button>
+            <button> $24.99</button>
+          </div>
+          </div> {/** flexed div 3 */}
         <div></div> {/** flexed div 4 */}
       </div>
     </section>
