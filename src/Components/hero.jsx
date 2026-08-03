@@ -5,7 +5,7 @@ import image2 from "../assets/vegetable-drink.jpg";
 const Hero = () => {
   return (
     <section>
-      <div className="flex justify-between m-2  ">
+      <div className="flex justify-between m-2">
         <div>
           <h1>
             <strong> Discover </strong> our range
@@ -27,13 +27,13 @@ const Hero = () => {
 
       {/**The grid ciol div that might later be flex/ */}
 
-      <div className=" flex flex-col justify-evenly gap-3 ">
+      <div className=" flex justify-evenly gap-3 ">
         <div>
           <img
             src={image1}
             alt="the first image, this one is with strawberry and milk."
           />
-          <h3 className="text-2xl"> All-in-one-package</h3>
+          <h3 className="text-2xl"> All-in-one-packag berionveie</h3>
           <div className="justify-between flex bg-yellow-300">
             <button> 1 Box 12 (pack) </button>
             <h4> $24.99</h4>
