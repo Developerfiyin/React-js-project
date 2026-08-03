@@ -39,6 +39,7 @@ const Hero = () => {
             <h4> $24.99</h4>
           </div>
         </div>
+        {/**div 2 */}
         <div>
           <div>
             <div>
@@ -52,9 +53,8 @@ const Hero = () => {
             </div>
           </div>
         </div>{" "}
-        {/** flexed div 2 */}
+        {/** flexed div 3 */}
         <div>
-          
           <div>
             <img src="" alt="" />
           </div>
@@ -63,11 +63,20 @@ const Hero = () => {
             <button>1 box 12 (Pack) </button>
             <button> $24.99</button>
           </div>
-          </div> {/** flexed div 3 */}
+        </div>{" "}
+        {/** flexed div 3 */}
         <div>
-          
-          
-          </div> {/** flexed div 4 */}
+          <div>
+            <img src="" alt="" />
+          </div>
+
+          <h3> </h3>
+          <div className=" flex justify-between bg-yellow-300 ">
+            <button>1 box 12 (pack) </button>
+            <button> $24.99</button>
+          </div>
+        </div>{" "}
+        {/** flexed div 4 */}
       </div>
     </section>
   );
